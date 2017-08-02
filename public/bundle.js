@@ -39655,40 +39655,14 @@ var BooksList = function (_React$Component) {
             _react2.default.createElement(
               _reactBootstrap.Carousel.Item,
               null,
-              _react2.default.createElement('img', { width: 900, height: 300, alt: '900x300', src: '/images/home1.jpg' }),
-              _react2.default.createElement(
-                _reactBootstrap.Carousel.Caption,
-                null,
-                _react2.default.createElement(
-                  'h3',
-                  null,
-                  'First slide label'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'Nulla vitae elit libero, a pharetra augue mollis interdum.'
-                )
-              )
+              _react2.default.createElement('img', { style: { width: 900, height: 300 }, alt: '900x300', src: '/images/home3.jpg' }),
+              _react2.default.createElement(_reactBootstrap.Carousel.Caption, null)
             ),
             _react2.default.createElement(
               _reactBootstrap.Carousel.Item,
               null,
               _react2.default.createElement('img', { width: 900, height: 300, alt: '900x300', src: '/images/home2.jpg' }),
-              _react2.default.createElement(
-                _reactBootstrap.Carousel.Caption,
-                null,
-                _react2.default.createElement(
-                  'h3',
-                  null,
-                  'Second slide label'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                )
-              )
+              _react2.default.createElement(_reactBootstrap.Carousel.Caption, null)
             )
           )
         ),
@@ -50593,7 +50567,7 @@ var BookItem = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         _reactBootstrap.Well,
-        null,
+        { style: { height: 220 } },
         _react2.default.createElement(
           _reactBootstrap.Row,
           null,

@@ -45,7 +45,7 @@ class BookItem extends React.Component{
 
   render(){
     return(
-      <Well>
+      <Well style={{height: 220}} >
         <Row>
           <Col xs={12} sm={4}>
             <Image src={this.props.images} responsive />
