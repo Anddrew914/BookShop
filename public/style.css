@@ -26,3 +26,7 @@ button.link {
   outline-offset: 0;
   color: #149c82;
 }
+
+.bookrow {
+  height: 130px;
+}

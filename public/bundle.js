@@ -39661,7 +39661,7 @@ var BooksList = function (_React$Component) {
             _react2.default.createElement(
               _reactBootstrap.Carousel.Item,
               null,
-              _react2.default.createElement('img', { width: 900, height: 300, alt: '900x300', src: '/images/home2.jpg' }),
+              _react2.default.createElement('img', { style: { width: 900, height: 300 }, alt: '900x300', src: '/images/home2.jpg' }),
               _react2.default.createElement(_reactBootstrap.Carousel.Caption, null)
             )
           )
@@ -50567,7 +50567,7 @@ var BookItem = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         _reactBootstrap.Well,
-        { style: { height: 220 } },
+        null,
         _react2.default.createElement(
           _reactBootstrap.Row,
           null,
@@ -50580,18 +50580,22 @@ var BookItem = function (_React$Component) {
             _reactBootstrap.Col,
             { xs: 6, sm: 8 },
             _react2.default.createElement(
-              'h6',
-              null,
-              this.props.title
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              this.props.description.length > 50 && this.state.isClicked === false ? this.props.description.substring(0, 50) : this.props.description,
+              'div',
+              { className: 'bookrow' },
               _react2.default.createElement(
-                'button',
-                { className: 'link', onClick: this.onReadMore.bind(this) },
-                this.state.isClicked === false && this.props.description !== null && this.props.description.length > 50 ? '... read more' : ''
+                'h6',
+                null,
+                this.props.title
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                this.props.description.length > 50 && this.state.isClicked === false ? this.props.description.substring(0, 50) : this.props.description,
+                _react2.default.createElement(
+                  'button',
+                  { className: 'link', onClick: this.onReadMore.bind(this) },
+                  this.state.isClicked === false && this.props.description !== null && this.props.description.length > 50 ? '... read more' : ''
+                )
               )
             ),
             _react2.default.createElement(

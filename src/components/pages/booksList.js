@@ -37,7 +37,7 @@ class BooksList extends React.Component {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img width={900} height={300} alt="900x300" src="/images/home2.jpg"/>
+            <img style = {{width:900, height:300 }} alt="900x300" src="/images/home2.jpg"/>
             <Carousel.Caption>
             </Carousel.Caption>
           </Carousel.Item>
