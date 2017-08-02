@@ -1,5 +1,3 @@
-node_modules/,
-BUpackage.json
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
